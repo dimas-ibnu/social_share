@@ -173,7 +173,7 @@ class SocialShare {
       }
     }
     args = <String, dynamic>{"image": _imagePath, "content": contentText};
-    final bool? version = await _channel.invokeMethod('shareOptions', args);
+    final version = await _channel.invokeMethod('shareOptions', args);
     return version;
   }
 
