@@ -160,7 +160,7 @@ class SocialShare {
     return response;
   }
 
-  static Future<bool?> shareOptions(String contentText,
+  static Future shareOptions(String contentText,
       {String? imagePath}) async {
     Map<String, dynamic> args;
 
